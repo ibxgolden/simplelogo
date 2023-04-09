@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.course {
+    width: 80%;
+    /* background-image: url(); */
+    display: grid;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+}
+h1 {
+    font-size:36px;
+    font-weight: 100;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22px;
+    padding: 10px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+}
+.course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3 {
+    text-align: center;
+    font-weight:100;
+    margin:10px 0;
+}
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,2);
+  }
+  /* to make the webpage responsive in small device */
+  @media(max-width:700px){
+    .row {
+        flex-direction: column;
+    }
+  }
+  /* campus */
+  .cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width:700px){
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image:url("./TOP 50 • The Most Beautiful Animals 8K ULTRA HD - YouTube and 3 more pages - Personal - Microsoft​ Edge 12_20_2022 8_59_22 PM.png") ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+#id {
+    color:white;
+    text-decoration: none;
+
+}
+#id:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 4px;
+    transition: 1s;
+}
+/* nav part */
+body {
+    font-family: fantasy;
+    font-weight: 100;
+}
+nav {
+    background: #00b7ff;
+    height: 80px;
+    width: 100%;
+}
+label.logo {
+    color:white;
+    margin-left: 34px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label.logo:hover {
+    background-color: #0082e6;
+    color: black;
+    margin: 4px;
+    font-style: italic;
+    transition: 1s;
+}
+nav ul {
+     float: right;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: lighter;
+     margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding:7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn {
+     font-size: 30px;
+     color: white;
+     float: right;
+     line-height: 80px;
+     margin-right: 40px;
+     cursor: pointer;
+     display: none;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.new{
+    font-weight: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+.para {
+    color: #777;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+#pp {
+    text-align: center;
+    background: rgb(23, 85, 172);
+    color: white;
+    padding-bottom: 6px;
+}
+#ccl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav img {
+    width: 150px;
+    border-radius: 50%;
+}
+#css {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
